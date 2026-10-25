@@ -621,6 +621,8 @@ REPERTOIRES.london = {
     "moves": "1.d4 f5 2.Bf4 Nf6 3.e3 e6 4.Nf3 Be7 5.Be2 O-O 6.O-O b6 7.c4 Bb7 8.Nc3 Ne4 9.Nxe4 Bxe4 10.h4 a5 11.a3 Na6 12.d5 exd5 13.cxd5",
     "quizTo": "9.Nxe4",
     "notes": {
+      "10.h4": "Looks like it hangs the h-pawn, but it's poisoned. 10...Bxh4? 11.Nxh4 Qxh4 12.f3! traps the e4 bishop (d5 is covered by c4). 10...Bxf3 11.Bxf3 Bxh4?? 12.Bxa8 grabs the rook on the long diagonal. The idea is h5 to loosen Black's kingside.",
+      "10...a5": "Black wisely leaves h4 alone.",
       "1...f5": "Dutch. Banzea stays calm with the London setup.",
       "5.Be2": "Quiet. Castle first, then c4.",
       "7.c4": "Space on the queenside.",
@@ -631,6 +633,7 @@ REPERTOIRES.london = {
       "13.cxd5": "Strong d5 pawn. White is more comfortable."
     },
     "arrows": {
+      "10.h4": "g:f2f3 g:h4h5 r:e7h4",
       "5.Be2": "g:e1g1",
       "7.c4": "g:c4c5",
       "8.Nc3": "g:c3e4",
