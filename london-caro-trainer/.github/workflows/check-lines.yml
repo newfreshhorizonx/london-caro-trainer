@@ -1,0 +1,17 @@
+name: Check lines
+
+on:
+  push:
+    paths: ["lines/**", "tools/validate.js", "index.html"]
+  pull_request:
+    paths: ["lines/**", "tools/validate.js", "index.html"]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: node tools/validate.js
